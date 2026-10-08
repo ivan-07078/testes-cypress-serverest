@@ -1,0 +1,26 @@
+{
+  "name": "testes-cypress-serverest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:e2e",
+    "test:e2e": "cypress run",
+    "test:e2e:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-07078/testes-cypress-serverest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ivan-07078/testes-cypress-serverest/issues"
+  },
+  "homepage": "https://github.com/ivan-07078/testes-cypress-serverest#readme",
+  "devDependencies": {
+    "cypress": "^16.1.1"
+  }
+}
